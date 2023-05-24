@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+header{
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    color: #f0f0f0;
+    z-index: 10;
+    padding-top: 10px;
+    margin-bottom: 56px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11vh;
+}
+.flipkart_pluslogo{
+    color: #fff;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: -4px;
+}
+form{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);
+    height: 36px;
+    max-width: 564px;
+    margin-left: 20px;
+}
+#login{
+    color: #2874f0;
+    font-size: 16px;
+    letter-spacing: .1px;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    margin-left: 62px;
+    margin-top: 3px;
+    padding: 3px 40px;
+    border: 1px solid #dbdbdb;
+}
+#seller{
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 50px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+#more{
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 40px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+#cart{
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 40px;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+#home{
+    padding-top: 60px;height: 24vh;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    display: flex;
+}
+#grocery{
+    height: 64px;
+    width: 64px;
+    margin-top: 10px;
+    
+
+}
+.homeicon{
+    height: 64px;
+    width: 64px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.homeicon h2{
+    font-weight: 500;font-family: Roboto,Arial,sans-serif;font-size: 14px;
+}
+#home a{
+    color: #000;
+}
+#home a:hover{
+    color: #2874f0;
+}
+.viewmore h3{
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    margin-top: 18vh;
+
+}
+.viewmore a button{
+    margin-top: 21px;padding: 10px 20px;
+    font-size: 13px;font-weight: 500;
+    transition: box-shadow .2s ease;cursor: pointer;
+    outline: none;    border-radius: 2px;margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: 94px;
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+}
+#start{
+    padding-top: 10px;padding-bottom: 15px;  background-color: rgba(0,0,0,.08);   
+}
+.item1{
+    margin: 20px 40px;
+}
+.item1 h2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.item1 .p1{
+    margin-left: 28px;
+    color: #388e3c;
+    font-size: 16px;
+}
+.item1 .p2{
+    opacity: 0.6;
+    padding-top: 7px;
+    margin-left: 27px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.item1 a img:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+footer{
+    background-color: #172337;
+}
+.flipkartinfo{
+    display: flex;
+}
+.flipkartinfo a p:hover{
+    text-decoration: underline;
+}
+.flipkartinfo p{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    text-transform:uppercase;
+}
+.bottomcontent span{
+    margin-left: 30PX;
+    margin-right: 50px;
+}
+.flipkartinfo a p{
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.bottomcontent span a{
+    color: #eaeaea;margin-left: 0;
+}
+.bottomcontent span a:hover{
+    text-decoration: underline;
+}
+.bottomcontent a span{
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.bottomcontent{
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;    
+    margin-top: 4px;
+    padding-left: 30px;
+}
+.bottomcontent a{
+    margin-left: 55px;
+}
+.bottomcontent img{
+    margin-top: -6px;
+}
+#branddirec h2{
+    font-weight: bold;
+    color: #878787;    
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+#branddirec{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#branddirec p{
+    font-size: 11px;
+    color: #878787;
+}
